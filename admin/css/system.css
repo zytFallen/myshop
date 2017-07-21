@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.ai {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 30px;
+}
+
+.bi {
+	width: 70%;
+	margin: 0 auto; 
+    vettical-align:center;
+	background-color: #00ff80;
+	border-color: #000000;
+}
+
+.ci {
+	width:30%;
+	text-align: left;
+	font-family: "宋体";
+	font-size: 25px;
+	font-style: normal;
+}
+
+.id {
+	width:40$;
+	text-align: left;
+	font-family: "宋体";
+	font-size: 20px;
+	font-style: normal;
+}
