@@ -28,8 +28,7 @@ window.location.href='login.php';
             <?php 
             if (isset($_SESSION["adminName"])){
                 echo $_SESSION['adminName'];
-            }
-            if (isset($_COOKIE["adminName"])){
+            }elseif (isset($_COOKIE["adminName"])){
                 echo $_COOKIE['adminName'];
             }
             ?>
